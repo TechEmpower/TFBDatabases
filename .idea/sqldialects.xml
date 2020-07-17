@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/MySQL/create.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/PostgreSQL/create-postgres-database.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/PostgreSQL/create-postgres.sql" dialect="PostgreSQL" />
+  </component>
+</project>
