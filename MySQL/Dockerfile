@@ -44,4 +44,6 @@ RUN chown -R mysql:mysql /var/lib/mysql /var/log/mysql /var/run/mysqld /ssd && \
     mysqladmin -uroot -psecret flush-hosts && \
     mysql -uroot -psecret < create.sql
 
+EXPOSE 3306
+
 CMD chown -R mysql:mysql /var/lib/mysql /var/log/mysql /var/run/mysqld /ssd && mysqld

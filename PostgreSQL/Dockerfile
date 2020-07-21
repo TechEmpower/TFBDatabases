@@ -54,4 +54,6 @@ RUN service postgresql start && \
 
 ENV PATH $PATH:/usr/lib/postgresql/$PG_VERSION/bin
 
+EXPOSE 5432
+
 CMD ["postgres"]
